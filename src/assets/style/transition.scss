@@ -1,0 +1,30 @@
+// 不知道写个啥效果
+// fade-transform
+.fade-transform-enter-active, .fade-transform-leave-active{
+  transition: all .5s;
+}
+.fade-transform-enter{
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.fade-transform-leave-to{
+  opacity: 0;
+  transform: translateX(30px)
+}
+
+//fade
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .28s;
+}
+.fade-enter, .fade-leave-to{
+  opacity: 0;
+}
+
+//transition-group 中的list-complete
+.list-complete-item {
+  transition: all 0.3s;
+}
+.list-complete-enter, .list-complete-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}

@@ -1,17 +1,35 @@
 <template>
   <el-container class="container">
-    <el-aside width="200px">Aside</el-aside>
+    <el-aside width="200px">
+      <app-aside></app-aside>
+    </el-aside>
     <el-container>
-      <el-header>Header</el-header>
-      <el-main>Main</el-main>
-      <el-footer>Footer</el-footer>
+      <el-header>
+        <app-header></app-header>
+      </el-header>
+      <el-main>
+        <app-main></app-main>
+      </el-main>
+      <el-footer>
+        <app-footer></app-footer>
+      </el-footer>
     </el-container>
   </el-container>
 </template>
 <script>
+import AppHeader from './components/header'
+import AppAside from './components/aside/'
+import AppMain from './components/footer'
+import AppFooter from './components/footer'
 export default {
   data() {
     return {};
+  },
+  components: {
+    AppHeader,
+    AppAside,
+    AppMain,
+    AppFooter
   }
 };
 </script>

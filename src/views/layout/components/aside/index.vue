@@ -9,18 +9,24 @@
       :text-color="variables.menuText"
       :active-text-color="variables.menuActiveText"
     >
-      <!-- <sidebar-item v-for="route in permission_routes" :key="route.path" :item="route" :base-path="route.path" /> -->
+      <aside-item v-for="route in routes" :key="route.path" :item="route" />
     </el-menu>
   </el-scrollbar>
 </template>
 <script>
-import variables from '@/assets/styles/variables.scss'
+// @ is an alias to /src
+import AsideItem from "./item";
+import variables from "@/assets/style/variable.scss";
 export default {
   data() {
     return {
       isCollapse: false,
-      variables
-    }
+      variables,
+      routes: []
+    };
+  },
+  components: {
+    AsideItem
   }
-}
+};
 </script>
