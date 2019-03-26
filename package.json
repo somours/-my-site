@@ -34,7 +34,22 @@
       "plugin:vue/essential",
       "@vue/prettier"
     ],
-    "rules": {},
+    "rules": {
+      "space-before-function-paren": "off",
+      "keyword-spacing": [2, {
+        "before": true,
+        "after": true
+      }],
+      "indent": [2, 2, {
+        "SwitchCase": 1
+      }],
+      "no-trailing-spaces": 0,
+      "space-comment": 0,
+      "generator-star-spacing": "off",
+      "quotes": "off",
+      "semi": "off",
+      "semicolon": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

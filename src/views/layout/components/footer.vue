@@ -6,16 +6,11 @@
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {};
   }
-}
+};
 </script>
 <style lang="scss" scoped>
 .app-footer {
-  
 }
 </style>
-
-

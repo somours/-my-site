@@ -17,10 +17,10 @@
   </el-container>
 </template>
 <script>
-import AppHeader from './components/header'
-import AppAside from './components/aside/'
-import AppMain from './components/footer'
-import AppFooter from './components/footer'
+import AppHeader from "./components/header";
+import AppAside from "./components/aside/";
+import AppMain from "./components/footer";
+import AppFooter from "./components/footer";
 export default {
   data() {
     return {};
