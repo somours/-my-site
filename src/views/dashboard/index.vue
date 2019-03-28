@@ -3,4 +3,3 @@
     this is a dashboard
   </section>
 </template>
-
