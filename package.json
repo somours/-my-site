@@ -46,9 +46,9 @@
       "no-trailing-spaces": 0,
       "space-comment": 0,
       "generator-star-spacing": "off",
-      "quotes": "off",
       "semi": "off",
-      "semicolon": "off"
+      "semicolon": "off",
+      "quotes": 0
     },
     "parserOptions": {
       "parser": "babel-eslint"

@@ -12,12 +12,11 @@ export default {
   data() {
     return {
       cacheViews: []
-    }
+    };
   }
-}
+};
 </script>
 <style lang="scss" scoped>
-.app-main{
+.app-main {
 }
 </style>
-
