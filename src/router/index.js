@@ -29,6 +29,24 @@ export default new Router({
           }
         }
       ]
+    },
+    {
+      path: "/demo",
+      component: Layout,
+      hidden: false,
+      meta: {
+        icon: "demo",
+        tilte: "",
+        roles: []
+      },
+      children: [
+        {
+          path: "tinymce",
+          component: () => import("@/views/demos/tinymce/"),
+          name: "tinymce",
+          icon: "tiny"
+        }
+      ]
     }
   ]
 });
